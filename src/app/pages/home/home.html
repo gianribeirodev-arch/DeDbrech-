@@ -1,0 +1,98 @@
+<!-- Hero -->
+<section class="textura-cal py-5" style="background: linear-gradient(180deg, var(--creme), var(--bege));">
+  <div class="container py-4">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="badge rounded-pill mb-3" style="background-color: var(--oliva); color: var(--creme);">
+          Moda circular
+        </span>
+        <h1 class="display-5 mb-3">Peças com história, tons da terra</h1>
+        <p class="lead" style="color: var(--barro);">
+          Garimpamos, curamos e devolvemos vida a roupas únicas. Nossa identidade visual
+          nasce dos arcos e das cores terrosas da Misci Store — bege, ocre e terracota em
+          cada detalhe.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a routerLink="/catalogo" class="btn btn-lg" style="background-color: var(--terracota); color: var(--creme);">
+            Ver catálogo
+          </a>
+          <a routerLink="/sobre" class="btn btn-lg btn-outline-dark" style="border-color: var(--barro); color: var(--barro);">
+            Nossa história
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div
+          class="arco mx-auto"
+          style="width: min(100%, 420px); height: 420px; background: linear-gradient(160deg, var(--ocre), var(--terracota) 120%); display:flex; align-items:center; justify-content:center; font-size: 6rem;"
+          aria-hidden="true"
+        >
+          🧡
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Como funciona -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="h3 text-center mb-5">Como funciona</h2>
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle" style="width:72px;height:72px;background-color: var(--bege);">
+          <i class="bi bi-search fs-3 text-terracota"></i>
+        </div>
+        <h3 class="h5">1. Garimpamos</h3>
+        <p style="color: var(--concreto);">Selecionamos peças de segunda mão com qualidade e identidade em feiras e doações.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle" style="width:72px;height:72px;background-color: var(--bege);">
+          <i class="bi bi-stars fs-3 text-terracota"></i>
+        </div>
+        <h3 class="h5">2. Curamos</h3>
+        <p style="color: var(--concreto);">Higienizamos, fotografamos e contamos a história de cada peça antes de chegar até você.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle" style="width:72px;height:72px;background-color: var(--bege);">
+          <i class="bi bi-bag-heart fs-3 text-terracota"></i>
+        </div>
+        <h3 class="h5">3. Você veste</h3>
+        <p style="color: var(--concreto);">Escolhe sua peça única, com preço justo, e dá o próximo capítulo a ela.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Destaques -->
+<section class="py-5" style="background-color: var(--bege);">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-baseline mb-4 flex-wrap gap-2">
+      <h2 class="h3 mb-0">Destaques da semana</h2>
+      <a routerLink="/catalogo" class="link-dark text-decoration-none" style="color: var(--barro);">
+        Ver catálogo completo <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+    <div class="row g-4">
+      @for (produto of destaques; track produto.id) {
+        <div class="col-sm-6 col-lg-3">
+          <app-produto-card [produto]="produto" />
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- CTA final -->
+<section class="py-5">
+  <div class="container text-center py-4">
+    <h2 class="h3 mb-3">Faça parte do movimento circular</h2>
+    <p class="mb-4 mx-auto" style="max-width: 560px; color: var(--concreto);">
+      Cada peça comprada no nosso brechó evita novo descarte têxtil e dá vida longa à moda.
+      Venha garimpar a sua história.
+    </p>
+    <a routerLink="/contato" class="btn btn-lg" style="background-color: var(--oliva); color: var(--creme);">
+      Fale com a gente
+    </a>
+  </div>
+</section>

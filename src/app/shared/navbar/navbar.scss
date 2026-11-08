@@ -1,0 +1,12 @@
+.nav-link {
+  color: var(--carvao);
+  font-weight: 500;
+
+  &.active {
+    color: var(--terracota);
+  }
+
+  &:hover {
+    color: var(--barro);
+  }
+}

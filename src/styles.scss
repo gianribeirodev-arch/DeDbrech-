@@ -1,0 +1,98 @@
+// Paleta inspirada na Misci Store (Babbie Arquitetura): cal, bege, ocre,
+// terracota e marrom-barro, com cinza-concreto de apoio.
+$creme: #f6f0e4;
+$bege: #e9dcc3;
+$ocre: #c6933f;
+$terracota: #b35d3b;
+$barro: #6f4530;
+$concreto: #8b8478;
+$oliva: #6a6b45;
+$carvao: #2c2621;
+
+$primary: $terracota;
+$secondary: $ocre;
+$success: $oliva;
+$dark: $carvao;
+$light: $creme;
+$body-bg: $creme;
+$body-color: $carvao;
+
+$font-family-base: "Jost", "Segoe UI", sans-serif;
+$headings-font-family: "Fraunces", "Georgia", serif;
+$headings-font-weight: 500;
+
+$border-radius: 1.25rem;
+$border-radius-sm: 0.85rem;
+$border-radius-lg: 2rem;
+$border-radius-xl: 3rem;
+
+$link-color: $terracota;
+$link-hover-color: $barro;
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  --creme: #{$creme};
+  --bege: #{$bege};
+  --ocre: #{$ocre};
+  --terracota: #{$terracota};
+  --barro: #{$barro};
+  --concreto: #{$concreto};
+  --oliva: #{$oliva};
+  --carvao: #{$carvao};
+}
+
+html,
+body {
+  background-color: var(--creme);
+}
+
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: $headings-font-family;
+  letter-spacing: -0.01em;
+}
+
+.text-terracota {
+  color: var(--terracota) !important;
+}
+
+.bg-barro {
+  background-color: var(--barro) !important;
+}
+
+.bg-bege {
+  background-color: var(--bege) !important;
+}
+
+// Motivo de arco recorrente na identidade da Misci.
+.arco,
+.arco-top {
+  border-radius: 50% 50% 0 0 / 35% 35% 0 0;
+}
+
+.arco-card {
+  border-radius: $border-radius-xl $border-radius-xl $border-radius $border-radius;
+  overflow: hidden;
+}
+
+.textura-cal {
+  background-image: radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 255, 255, 0.35),
+      transparent 40%
+    ),
+    radial-gradient(circle at 80% 60%, rgba(0, 0, 0, 0.04), transparent 45%);
+}
+
+.btn {
+  letter-spacing: 0.02em;
+}
+
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-size: 1.5rem;
+}

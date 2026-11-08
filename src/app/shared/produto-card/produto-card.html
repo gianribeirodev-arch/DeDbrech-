@@ -1,0 +1,27 @@
+<article class="card h-100 border-0 shadow-sm arco-card">
+  <div
+    class="arco-top d-flex align-items-center justify-content-center position-relative"
+    style="height: 240px; background: linear-gradient(160deg, var(--bege), var(--ocre) 120%);"
+  >
+    <span class="display-1" aria-hidden="true">{{ produto().emoji }}</span>
+    <span class="badge bg-barro position-absolute top-0 end-0 m-3" style="background-color: var(--barro);">
+      -{{ desconto }}%
+    </span>
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h3 class="h6 mb-1">{{ produto().nome }}</h3>
+    <p class="small mb-2" style="color: var(--concreto);">
+      Tam. {{ produto().tamanho }} · {{ produto().condicao }}
+    </p>
+    <p class="small flex-grow-1" style="color: var(--carvao);">{{ produto().descricao }}</p>
+    <div class="d-flex align-items-baseline gap-2 mt-2">
+      <span class="text-decoration-line-through small" style="color: var(--concreto);">
+        R$ {{ produto().precoOriginal }}
+      </span>
+      <span class="h5 mb-0 text-terracota">R$ {{ produto().preco }}</span>
+    </div>
+    <button type="button" class="btn btn-sm mt-3" style="background-color: var(--terracota); color: var(--creme); border: none;">
+      <i class="bi bi-bag-heart-fill me-1"></i> Quero essa peça
+    </button>
+  </div>
+</article>
