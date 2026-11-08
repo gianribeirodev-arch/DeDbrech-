@@ -19,7 +19,11 @@ das principais decisões de desenvolvimento.
 ```
 src/app/
 ├── core/                 # Modelo e serviço de dados (Produto, ProdutoService)
-├── shared/               # Navbar, Footer e ProdutoCard (componentes reutilizáveis)
+├── components/           # Navbar, Footer e ProdutoCard (componentes reutilizáveis)
+│   └── <nome>/
+│       ├── <nome>.ts
+│       ├── <nome>.html
+│       └── <nome>.scss
 ├── pages/
 │   ├── home/             # Página inicial (hero, como funciona, destaques)
 │   ├── catalogo/         # Catálogo com filtro por categoria e busca por nome

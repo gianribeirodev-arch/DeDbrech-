@@ -1,6 +1,6 @@
 import { Component, computed, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ProdutoCard } from '../../shared/produto-card/produto-card';
+import { ProdutoCard } from '../../components/produto-card/produto-card';
 import { ProdutoService } from '../../core/produto';
 import { Categoria } from '../../core/produto.model';
 
