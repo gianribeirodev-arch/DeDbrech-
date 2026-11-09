@@ -5,9 +5,9 @@ import { Sobre } from './pages/sobre/sobre';
 import { Contato } from './pages/contato/contato';
 
 export const routes: Routes = [
-  { path: '', component: Home, title: 'Brechó Misci | Início' },
-  { path: 'catalogo', component: Catalogo, title: 'Brechó Misci | Catálogo' },
-  { path: 'sobre', component: Sobre, title: 'Brechó Misci | Sobre' },
-  { path: 'contato', component: Contato, title: 'Brechó Misci | Contato' },
+  { path: '', component: Home, title: 'Brechó D&D | Início' },
+  { path: 'catalogo', component: Catalogo, title: 'Brechó D&D | Catálogo' },
+  { path: 'sobre', component: Sobre, title: 'Brechó D&D | Sobre' },
+  { path: 'contato', component: Contato, title: 'Brechó D&D | Contato' },
   { path: '**', redirectTo: '' },
 ];

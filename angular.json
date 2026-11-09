@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "brecho-misci": {
+    "brecho": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -70,10 +70,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "brecho-misci:build:production"
+              "buildTarget": "brecho:build:production"
             },
             "development": {
-              "buildTarget": "brecho-misci:build:development"
+              "buildTarget": "brecho:build:development"
             }
           },
           "defaultConfiguration": "development"

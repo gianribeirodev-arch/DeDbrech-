@@ -1,4 +1,4 @@
-# Brechó Misci
+# Brechó D&D Moda circular
 
 Site institucional e catálogo para um brechó fictício, desenvolvido como parte do
 **Projeto Integrador em Tecnologia da Informação II — Módulo 2** (UFMS Digital).
@@ -45,7 +45,7 @@ src/app/
   identidade visual consistente em qualquer breakpoint.
 - **Identidade visual**: a paleta (creme, bege, ocre, terracota, marrom-barro,
   cinza-concreto, verde-oliva) e o motivo recorrente de arcos foram inspirados na
-  **Misci Store**, projeto de interiores da Babbie Arquitetura e Interiores — sem
+  **D&D Store**, projeto de interiores da Babbie Arquitetura e Interiores — sem
   qualquer vínculo comercial com a marca (ver aviso na página "Sobre").
 - **Dados**: como não há back-end nesta etapa, o catálogo usa dados mockados em
   `core/produto.ts`, isolados em um serviço Angular (`ProdutoService`) para facilitar a
@@ -72,4 +72,4 @@ Acesse `http://localhost:4200/`.
 ng build
 ```
 
-Os artefatos são gerados em `dist/brecho-misci`.
+Os artefatos são gerados em `dist/brecho`.
