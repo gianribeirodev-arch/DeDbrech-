@@ -1,9 +1,15 @@
 <article class="card h-100 border-0 shadow-sm arco-card">
   <div
-    class="arco-top d-flex align-items-center justify-content-center position-relative"
+    class="arco-top position-relative overflow-hidden"
     style="height: 240px; background: linear-gradient(160deg, var(--bege), var(--ocre) 120%);"
   >
-    <span class="display-1" aria-hidden="true">{{ produto().emoji }}</span>
+    <img
+      [src]="produto().imagem"
+      [alt]="produto().nome"
+      class="w-100 h-100"
+      style="object-fit: cover;"
+      onerror="this.onerror=null;this.src='/produtos/placeholder.svg'"
+    />
     <span class="badge bg-barro position-absolute top-0 end-0 m-3" style="background-color: var(--barro);">
       -{{ desconto }}%
     </span>

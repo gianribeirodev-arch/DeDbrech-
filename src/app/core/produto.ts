@@ -10,7 +10,7 @@ const PRODUTOS: Produto[] = [
     preco: 89,
     precoOriginal: 220,
     condicao: 'Muito bom estado',
-    emoji: '👗',
+    imagem: '/produtos/01-vestido-.svg',
     descricao: 'Linho leve em tom terracota, caimento solto, perfeito para dias quentes.',
   },
   {
@@ -21,7 +21,7 @@ const PRODUTOS: Produto[] = [
     preco: 59,
     precoOriginal: 140,
     condicao: 'Seminova',
-    emoji: '👔',
+    imagem: '/produtos/02-camisa.jpg',
     descricao: 'Flanela xadrez em tons de ocre e barro, garimpada dos anos 90.',
   },
   {
@@ -32,7 +32,7 @@ const PRODUTOS: Produto[] = [
     preco: 75,
     precoOriginal: 180,
     condicao: 'Muito bom estado',
-    emoji: '👖',
+    imagem: '/produtos/03-calca-alfaiataria-bege.jpg',
     descricao: 'Corte reto em bege areia, tecido estruturado com caimento atemporal.',
   },
   {
@@ -43,7 +43,7 @@ const PRODUTOS: Produto[] = [
     preco: 110,
     precoOriginal: 260,
     condicao: 'Bom estado',
-    emoji: '🧥',
+    imagem: '/produtos/04-jaqueta-jeans-barro.jpg',
     descricao: 'Jeans lavado em tingimento terroso, forro quentinho para o inverno.',
   },
   {
@@ -54,7 +54,7 @@ const PRODUTOS: Produto[] = [
     preco: 49,
     precoOriginal: 120,
     condicao: 'Muito bom estado',
-    emoji: '👜',
+    imagem: '/produtos/05-bolsa-palha-trancada.jpg',
     descricao: 'Palha trançada à mão, alças de couro envelhecido.',
   },
   {
@@ -65,7 +65,7 @@ const PRODUTOS: Produto[] = [
     preco: 95,
     precoOriginal: 230,
     condicao: 'Seminova',
-    emoji: '👗',
+    imagem: '/produtos/06-vestido.jpg',
     descricao: 'Viscose fluida verde-oliva, fenda lateral e botões de madeira.',
   },
   {
@@ -76,7 +76,7 @@ const PRODUTOS: Produto[] = [
     preco: 55,
     precoOriginal: 130,
     condicao: 'Muito bom estado',
-    emoji: '👔',
+    imagem: '/produtos/07-camisa-social-cal.jpg',
     descricao: 'Tricoline cor de cal, gola clássica, ótima para compor looks de trabalho.',
   },
   {
@@ -87,7 +87,7 @@ const PRODUTOS: Produto[] = [
     preco: 68,
     precoOriginal: 160,
     condicao: 'Bom estado',
-    emoji: '👖',
+    imagem: '/produtos/08-calca-pantalona-terracota.jpg',
     descricao: 'Pantalona fluida em terracota, cintura alta com amarração.',
   },
   {
@@ -98,7 +98,7 @@ const PRODUTOS: Produto[] = [
     preco: 189,
     precoOriginal: 420,
     condicao: 'Bom estado',
-    emoji: '🧥',
+    imagem: '/produtos/09-jaqueta-couro-barro.jpg',
     descricao: 'Couro legítimo envelhecido, acabamento aveludado como o revestimento de cal.',
   },
   {
@@ -109,7 +109,7 @@ const PRODUTOS: Produto[] = [
     preco: 29,
     precoOriginal: 70,
     condicao: 'Novo',
-    emoji: '💍',
+    imagem: '/produtos/10-bolsa-vermelha.jpg',
     descricao: 'Cerâmica artesanal em formato de arco, inspirada na arquitetura vernacular.',
   },
   {
@@ -120,7 +120,7 @@ const PRODUTOS: Produto[] = [
     preco: 72,
     precoOriginal: 170,
     condicao: 'Muito bom estado',
-    emoji: '👗',
+    imagem: '/produtos/11-vestido.jpg',
     descricao: 'Tricô texturizado bege, manga bufante e botões forrados.',
   },
   {
@@ -131,7 +131,7 @@ const PRODUTOS: Produto[] = [
     preco: 45,
     precoOriginal: 110,
     condicao: 'Seminova',
-    emoji: '👔',
+    imagem: '/produtos/12-camisa.jpg',
     descricao: 'Linho cropped verde-oliva, amarração frontal, perfeita pra compor.',
   },
 ];

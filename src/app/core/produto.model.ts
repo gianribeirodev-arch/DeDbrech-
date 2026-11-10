@@ -8,6 +8,6 @@ export interface Produto {
   preco: number;
   precoOriginal: number;
   condicao: string;
-  emoji: string;
+  imagem: string;
   descricao: string;
 }
