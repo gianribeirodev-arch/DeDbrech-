@@ -73,3 +73,9 @@ ng build
 ```
 
 Os artefatos são gerados em `dist/brecho`.
+
+## Banco de dados (Módulo 3)
+
+A modelagem e os scripts SQL do sistema (categoria, produto, cliente, pedido e
+item_pedido) estão em [`database/`](database/README.md), com schema, dados de
+exemplo, consultas e um script que executa tudo via SQLite.
